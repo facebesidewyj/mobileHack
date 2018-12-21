@@ -3,7 +3,7 @@
 
 [Babel下的ES6兼容性与规范](https://www.cnblogs.com/chris-oil/p/5931180.html)
 
-##工具类网站
+## 工具类网站
 
  [HTML5 与 CSS3 技术应用评估](http://html5please.com/ "html5与css3技术应用评估")
  
@@ -52,12 +52,12 @@
 [HTML5 POLYFILLS](http://html5polyfill.com/ "HTML5 POLYFILLS")
 
 
-##iphone6的那些事
+## iphone6的那些事
 
 [iPhone 6 屏幕揭秘](http://wileam.com/iphone-6-screen-cn/)
 
 
-##响应式测试工具
+## 响应式测试工具
 
 Firefox 浏览器内置了 `自定义设计视图` 的功能，可以通过 `Firefox->Web 开发者->自定义设计视图`（或者摁下 `Shift + Ctrl + m` ）。相比网络工具，运行更加流畅，无需联网。
 
@@ -92,7 +92,7 @@ Firefox 浏览器内置了 `自定义设计视图` 的功能，可以通过 `Fir
 		#portrait { display: none; }
 	</style>
 ```
-##Web app 开发的最佳实践与中文总结
+## Web app 开发的最佳实践与中文总结
 
 [It’s not a web app. It’s an app you install from the web.](http://blog.forecast.io/its-not-a-web-app-its-an-app-you-install-from-the-web/)
 
@@ -103,7 +103,7 @@ Firefox 浏览器内置了 `自定义设计视图` 的功能，可以通过 `Fir
 
 
 
-##来自[maxzhang](https://github.com/maxzhang "ava")的一些移动端经验总结干货
+## 来自[maxzhang](https://github.com/maxzhang "ava")的一些移动端经验总结干货
 
 
 [移动Web单页应用开发实践——页面结构化](https://github.com/maxzhang/maxzhang.github.com/issues/8 "ava")
@@ -121,7 +121,7 @@ Firefox 浏览器内置了 `自定义设计视图` 的功能，可以通过 `Fir
 [移动手机浏览器m3u8格式视频流播放支持程度测试](https://github.com/maxzhang/maxzhang.github.com/issues/19 "ava")
 
 
-##本资料很多引用了指尖上的js系列
+## 本资料很多引用了指尖上的js系列
 
  [指尖下的js ——多触式web前端开发之一：对于Touch的处理](http://www.cnblogs.com/pifoo/archive/2011/05/23/webkit-touch-event-1.html "article1")
  
@@ -129,9 +129,9 @@ Firefox 浏览器内置了 `自定义设计视图` 的功能，可以通过 `Fir
  
  [指尖下的js —— 多触式web前端开发之三：处理复杂手势](http://www.cnblogs.com/pifoo/archive/2011/05/22/webkit-touch-event-3.html "article3")
 
-##基础知识
+## 基础知识
 
-###meta标签
+### meta标签
 
 meta标签大全 <http://segmentfault.com/blog/ciaocc/1190000002407912>
 
@@ -180,24 +180,24 @@ meta标签，这些meta标签在开发webapp时起到非常重要的作用
 
 [手机浏览器常用手势动作监听封装](http://wo.poco.cn/manson/post/id/268780)
 
-###手势事件
+### 手势事件
 * touchstart            //当手指接触屏幕时触发
 * touchmove           //当已经接触屏幕的手指开始移动后触发
 * touchend             //当手指离开屏幕时触发
 * touchcancel
 
-###触摸事件
+### 触摸事件
 * gesturestart          //当两个手指接触屏幕时触发
 * gesturechange      //当两个手指接触屏幕后开始移动时触发
 * gestureend
 
-###屏幕旋转事件
+### 屏幕旋转事件
 * onorientationchange    
 
-###检测触摸屏幕的手指何时改变方向
+### 检测触摸屏幕的手指何时改变方向
 * orientationchange      
 
-###touch事件支持的相关属性
+### touch事件支持的相关属性
 * touches
 * targetTouches
 * changedTouches
@@ -211,7 +211,7 @@ meta标签，这些meta标签在开发webapp时起到非常重要的作用
 * identifier　　   // An identifying number, unique to each touch event
 * 屏幕旋转事件：onorientationchange
 
-###判断屏幕是否旋转
+### 判断屏幕是否旋转
 ```javascript
 	function orientationChange() {
 		switch(window.orientation) {
@@ -236,7 +236,7 @@ meta标签，这些meta标签在开发webapp时起到非常重要的作用
 ``` 
 
 
-###JS 单击延迟
+### JS 单击延迟
 click 事件因为要等待单击确认，会有 300ms 的延迟，体验并不是很好。
 
 开发者大多数会使用封装的 tap 事件来代替click 事件，所谓的 tap 事件由 touchstart 事件 + touchmove 判断 + touchend 事件封装组成。
@@ -383,7 +383,7 @@ click 事件因为要等待单击确认，会有 300ms 的延迟，体验并不�
 	Skew(*deg) 倾斜角度。skewX 和skewY，可简写为：skew(* , *)
 	translate(*,*) 坐标移动。translateX 和translateY，可简写为：translate(* , *)。
  
-###页面描述
+### 页面描述
 
 
 	<link rel="apple-touch-icon-precomposed" href="http://www.xxx.com/App_icon_114.png" />
@@ -405,7 +405,7 @@ click 事件因为要等待单击确认，会有 300ms 的延迟，体验并不�
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 
 	
-##常见的 iPhone 和 Android 屏幕参数。
+## 常见的 iPhone 和 Android 屏幕参数。
 
 * 设备	     分辨率	    设备像素比率
 * Android LDPI	320×240	0.75
@@ -440,10 +440,10 @@ iPhone 4的一个 CSS 像素实际上表现为一块 2×2 的像素。所以图�
 
 
 
-##移动 Web 开发经验技巧
+## 移动 Web 开发经验技巧
 
 
-###点击与click事件
+### 点击与click事件
 
 对于a标记的点击导航，默认是在onclick事件中处理的。而移动客户端对onclick的响应相比PC浏览器有着明显的几百毫秒延迟。
 
@@ -471,12 +471,12 @@ iPhone 4的一个 CSS 像素实际上表现为一块 2×2 的像素。所以图�
 
 另外有一篇比较全的移动端点击解决方案 <http://www.zhihu.com/question/28979857>
 
-###锁定 viewport
+### 锁定 viewport
 
 	ontouchmove="event.preventDefault()" //锁定viewport，任何屏幕操作不移动用户界面（弹出键盘除外）。
 
 
-###利用 Media Query监听
+### 利用 Media Query监听
 
 Media Query 相信大部分人已经使用过了。其实 JavaScript可以配合 Media Query这么用：
 
@@ -495,7 +495,7 @@ Media Query 相信大部分人已经使用过了。其实 JavaScript可以配合
 也可以通过获取 CSS 值来使用 Media Query 判断设备情况，详情请看：[JavaScript 依据 CSS Media Queries 判断设备的方法](http://yujiangshui.com/use-javascript-css-media-queries-detect-device-state/)。
 
 
-###rem最佳实践
+### rem最佳实践
 
 rem是非常好用的一个属性，可以根据html来设定基准值，而且兼容性也很不错。不过有的时候还是需要对一些莫名其妙的浏览器优雅降级。以下是两个实践
 
@@ -508,12 +508,12 @@ rem是非常好用的一个属性，可以根据html来设定基准值，而且�
 	h1   { font-size: 24px; font-size: 2.4rem; } /* =24px */
  
 
-###被点击元素的外观变化，可以使用样式来设定：
+### 被点击元素的外观变化，可以使用样式来设定：
 
 	-webkit-tap-highlight-color: 颜色
  
 
-###检测判断 iPhone/iPod
+### 检测判断 iPhone/iPod
 开发特定设备的移动网站，首先要做的就是设备侦测了。下面是使用Javascript侦测iPhone/iPod的UA，然后转向到专属的URL。
 
 	if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
@@ -529,12 +529,12 @@ rem是非常好用的一个属性，可以根据html来设定基准值，而且�
 	　　header('Location: http://yoursite.com/iphone');
 	　　exit();
 	}
-###阻止旋转屏幕时自动调整字体大小
+### 阻止旋转屏幕时自动调整字体大小
 
 	html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {-webkit-text-size-adjust:none;}
  
 
-###模拟:hover伪类
+### 模拟:hover伪类
 因为iPhone并没有鼠标指针，所以没有hover事件。那么CSS :hover伪类就没用了。但是iPhone有Touch事件，onTouchStart 类似 onMouseOver，onTouchEnd 类似 onMouseOut。所以我们可以用它来模拟hover。使用Javascript：
 
 	var myLinks = document.getElementsByTagName('a');
@@ -548,7 +548,7 @@ rem是非常好用的一个属性，可以根据html来设定基准值，而且�
 
 这样设计一个链接，感觉可以更像按钮。并且，这个模拟可以用在任何元素上。
 
-###Flexbox 布局
+### Flexbox 布局
 
  [Flex 模板和实例](http://jsbin.com/ibuwol/2/edit "article5")
  
@@ -560,7 +560,7 @@ rem是非常好用的一个属性，可以根据html来设定基准值，而且�
 
 
 
-###居中问题
+### 居中问题
 
 居中是移动端跟pc端共同的噩梦。这里有两种兼容性比较好的新方案。
 
@@ -587,10 +587,10 @@ rem是非常好用的一个属性，可以根据html来设定基准值，而且�
 这里有更详细的更多的选择<http://www.zhouwenbin.com/%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/> 来自周文彬的博客
 
 
-###移动端实现标题文字截断
+### 移动端实现标题文字截断
 <http://www.75team.com/archives/611>
  
-###处理 Retina 双倍屏幕
+### 处理 Retina 双倍屏幕
  
  
 
